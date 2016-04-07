@@ -68,7 +68,7 @@ for i in range(0,len(info['rows'][0]['elements'])):
 	else:
 		invalid_list.append(places[i])
 
-print "The places in increasing order of road distance from IIT Bombay are:"
+print "The places in increasing order of road distance from "+origin+" are:"
 print_dict(distance_dict)
 
 for place in invalid_list:
@@ -81,5 +81,5 @@ for place in places:
 	distance=haversine(origin_lng,origin_lat,lng,lat)
 	straight_distance_dict[place]=distance
 
-print "The places in increasing order of bird-line distance from IIT Bombay are:"
+print "The places in increasing order of bird-line distance from "+origin+" are:"
 print_dict(straight_distance_dict)
