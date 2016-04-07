@@ -1,13 +1,9 @@
 Mumbai
 Navi Mumbai
-Karachi
-Bhopal
-Kota
-China
-Goa
-Myanmar
-Russia
-Atlantis
-Nix
-Hydra
-Charon
+Madurai
+Delhi
+Chennai
+Bangalore
+Pune
+Nerul
+Chicago
